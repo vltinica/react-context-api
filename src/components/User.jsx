@@ -1,10 +1,10 @@
-import React from 'react'
-import UserInfo from './UserInfo'
+import React from "react";
+import UserInfo from "./UserInfo";
 
-const User = ({user}) => {
+const User = () => {
   return (
-    <div><UserInfo user={user}/></div>
-  )
-}
+      <UserInfo />
+  );
+};
 
-export default User
+export default User;
